@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-el{
+    background-color: rgba(129, 125, 125, 0.234);
+    height: 2.5rem;
+    text-align: center;
+    padding: 6px;
+    font-size: 1.5rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid rgba(158, 150, 150, 0.396);
+    cursor: pointer;
+}
+
+.container-two{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    margin: 0;
+    margin-right: 1rem;
+}
+#text{
+    padding: 5px;
+    width: 220px;
+}
+.btn{
+    padding: 5px;
+    width: 70px;
+}
