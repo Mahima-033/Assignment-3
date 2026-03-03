@@ -9,6 +9,7 @@ button.addEventListener("click",function () {
     } 
     else {
         header.innerText = "Hello, " + name + "!";
+    }
 });
 
 const red=document.querySelector(".red");
@@ -35,6 +36,7 @@ yellow.addEventListener("click",function(){
     yellow.style.backgroundColor = "yellow";
     yellow.style.color = "white";
 })
+
 
 
 
