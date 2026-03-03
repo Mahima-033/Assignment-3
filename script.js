@@ -6,7 +6,8 @@ button.addEventListener("click",function () {
     let name= input.value;
     if (name === "") {
         header.innerText = "Hello";
-    } else {
+    } 
+    else {
         header.innerText = "Hello, " + name + "!";
 });
 
@@ -34,6 +35,7 @@ yellow.addEventListener("click",function(){
     yellow.style.backgroundColor = "yellow";
     yellow.style.color = "white";
 })
+
 
 
 
