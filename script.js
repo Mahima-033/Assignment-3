@@ -8,7 +8,7 @@ button.addEventListener("click",function () {
         header.innerText = "Hello";
     } 
     else {
-        header.innerText = "Hello, " + name + "!";
+        header.innerText = "Hello, " + name;
     }
 });
 
@@ -36,6 +36,7 @@ yellow.addEventListener("click",function(){
     yellow.style.backgroundColor = "yellow";
     yellow.style.color = "white";
 })
+
 
 
 
