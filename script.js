@@ -4,7 +4,10 @@ const button=document.querySelector(".btn");
 
 button.addEventListener("click",function () {
     let name= input.value;
-    header.textContent="Hello, " + name;
+    if (name === "") {
+        header.innerText = "Hello";
+    } else {
+        header.innerText = "Hello, " + name + "!";
 });
 
 const red=document.querySelector(".red");
@@ -31,6 +34,7 @@ yellow.addEventListener("click",function(){
     yellow.style.backgroundColor = "yellow";
     yellow.style.color = "white";
 })
+
 
 
 
